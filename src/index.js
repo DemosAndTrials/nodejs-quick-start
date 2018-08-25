@@ -24,7 +24,7 @@ app.set('view engine', 'ejs');
  * ROUTES
  */
 
-app.use('/site', [HomeRoutes]);
+app.use('/', [HomeRoutes]);
 
 app.listen(PORT, (err) => {
     if (err) {
